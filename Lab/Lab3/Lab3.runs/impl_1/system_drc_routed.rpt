@@ -1,0 +1,176 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sun Feb 16 20:00:09 2020
+| Host         : DESKTOP-B8TEOR0 running 64-bit major release  (build 9200)
+| Command      : report_drc -file system_drc_routed.rpt -pb system_drc_routed.pb -rpx system_drc_routed.rpx
+| Design       : system
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 28
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 28         |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net genblk3[0].pulser/ns_reg[1]_i_2__5_n_0 is a gated clock net sourced by a combinational pin genblk3[0].pulser/ns_reg[1]_i_2__5/O, cell genblk3[0].pulser/ns_reg[1]_i_2__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net genblk3[0].pulser/q_reg_i_1__5_n_0 is a gated clock net sourced by a combinational pin genblk3[0].pulser/q_reg_i_1__5/O, cell genblk3[0].pulser/q_reg_i_1__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net genblk3[1].pulser/ns_reg[1]_i_2__6_n_0 is a gated clock net sourced by a combinational pin genblk3[1].pulser/ns_reg[1]_i_2__6/O, cell genblk3[1].pulser/ns_reg[1]_i_2__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net genblk3[1].pulser/q_reg_i_1__6_n_0 is a gated clock net sourced by a combinational pin genblk3[1].pulser/q_reg_i_1__6/O, cell genblk3[1].pulser/q_reg_i_1__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net genblk3[2].pulser/ns_reg[1]_i_2__7_n_0 is a gated clock net sourced by a combinational pin genblk3[2].pulser/ns_reg[1]_i_2__7/O, cell genblk3[2].pulser/ns_reg[1]_i_2__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net genblk3[2].pulser/q_reg_i_1__7_n_0 is a gated clock net sourced by a combinational pin genblk3[2].pulser/q_reg_i_1__7/O, cell genblk3[2].pulser/q_reg_i_1__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net genblk3[3].pulser/ns_reg[1]_i_2__8_n_0 is a gated clock net sourced by a combinational pin genblk3[3].pulser/ns_reg[1]_i_2__8/O, cell genblk3[3].pulser/ns_reg[1]_i_2__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net genblk3[3].pulser/q_reg_i_1__8_n_0 is a gated clock net sourced by a combinational pin genblk3[3].pulser/q_reg_i_1__8/O, cell genblk3[3].pulser/q_reg_i_1__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net genblk3[4].pulser/ns_reg[1]_i_2__9_n_0 is a gated clock net sourced by a combinational pin genblk3[4].pulser/ns_reg[1]_i_2__9/O, cell genblk3[4].pulser/ns_reg[1]_i_2__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net genblk3[4].pulser/q_reg_i_1__9_n_0 is a gated clock net sourced by a combinational pin genblk3[4].pulser/q_reg_i_1__9/O, cell genblk3[4].pulser/q_reg_i_1__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net genblk3[5].pulser/ns_reg[1]_i_2__10_n_0 is a gated clock net sourced by a combinational pin genblk3[5].pulser/ns_reg[1]_i_2__10/O, cell genblk3[5].pulser/ns_reg[1]_i_2__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net genblk3[5].pulser/q_reg_i_1__10_n_0 is a gated clock net sourced by a combinational pin genblk3[5].pulser/q_reg_i_1__10/O, cell genblk3[5].pulser/q_reg_i_1__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net genblk3[6].pulser/ns_reg[1]_i_2__11_n_0 is a gated clock net sourced by a combinational pin genblk3[6].pulser/ns_reg[1]_i_2__11/O, cell genblk3[6].pulser/ns_reg[1]_i_2__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net genblk3[6].pulser/q_reg_i_1__11_n_0 is a gated clock net sourced by a combinational pin genblk3[6].pulser/q_reg_i_1__11/O, cell genblk3[6].pulser/q_reg_i_1__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net genblk3[7].pulser/ns_reg[1]_i_2__12_n_0 is a gated clock net sourced by a combinational pin genblk3[7].pulser/ns_reg[1]_i_2__12/O, cell genblk3[7].pulser/ns_reg[1]_i_2__12. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net genblk3[7].pulser/q_reg_i_1__12_n_0 is a gated clock net sourced by a combinational pin genblk3[7].pulser/q_reg_i_1__12/O, cell genblk3[7].pulser/q_reg_i_1__12. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net hundredPulse1/ns_reg[1]_i_2__3_n_0 is a gated clock net sourced by a combinational pin hundredPulse1/ns_reg[1]_i_2__3/O, cell hundredPulse1/ns_reg[1]_i_2__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net hundredPulse1/q_reg_i_1__3_n_0 is a gated clock net sourced by a combinational pin hundredPulse1/q_reg_i_1__3/O, cell hundredPulse1/q_reg_i_1__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net hundredPulse2/ns_reg[1]_i_2__4_n_0 is a gated clock net sourced by a combinational pin hundredPulse2/ns_reg[1]_i_2__4/O, cell hundredPulse2/ns_reg[1]_i_2__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net hundredPulse2/q_reg_i_1__4_n_0 is a gated clock net sourced by a combinational pin hundredPulse2/q_reg_i_1__4/O, cell hundredPulse2/q_reg_i_1__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net onePulse1/ns_reg[1]_i_2_n_0 is a gated clock net sourced by a combinational pin onePulse1/ns_reg[1]_i_2/O, cell onePulse1/ns_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net onePulse1/q_reg_i_1_n_0 is a gated clock net sourced by a combinational pin onePulse1/q_reg_i_1/O, cell onePulse1/q_reg_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net onePulse2/ns_reg[1]_i_2__0_n_0 is a gated clock net sourced by a combinational pin onePulse2/ns_reg[1]_i_2__0/O, cell onePulse2/ns_reg[1]_i_2__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net onePulse2/q_reg_i_1__0_n_0 is a gated clock net sourced by a combinational pin onePulse2/q_reg_i_1__0/O, cell onePulse2/q_reg_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net tenPulse1/ns_reg[1]_i_2__1_n_0 is a gated clock net sourced by a combinational pin tenPulse1/ns_reg[1]_i_2__1/O, cell tenPulse1/ns_reg[1]_i_2__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net tenPulse1/q_reg_i_1__1_n_0 is a gated clock net sourced by a combinational pin tenPulse1/q_reg_i_1__1/O, cell tenPulse1/q_reg_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net tenPulse2/ns_reg[1]_i_2__2_n_0 is a gated clock net sourced by a combinational pin tenPulse2/ns_reg[1]_i_2__2/O, cell tenPulse2/ns_reg[1]_i_2__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net tenPulse2/q_reg_i_1__2_n_0 is a gated clock net sourced by a combinational pin tenPulse2/q_reg_i_1__2/O, cell tenPulse2/q_reg_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+
